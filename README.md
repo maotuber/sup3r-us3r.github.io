@@ -129,22 +129,22 @@ Eu ensinei como instalar, configurar e satisfazer as dependências de modo geral
 ### Screenshots do Desenvolvimento e Conclusão.
 
 `Spyquiz.py`
-![Spyquiz.py][screenshot1]
+![Spyquiz.py][screenshot6]
 
 `Url.py`
-![Url.py][screenshot2]
+![Url.py][screenshot7]
 
 `Início`
-![Início][screenshot3]
+![Início][screenshot8]
 
 `Sobre`
-![Sobre][screenshot4]
+![Sobre][screenshot9]
 
 
-[screenshot1]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A37%3A32.png
-[screenshot2]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A37%3A35.png
-[screenshot3]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A33%3A21.png
-[screenshot4]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A33%3A32.png
+[screenshot6]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A37%3A32.png
+[screenshot7]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A37%3A35.png
+[screenshot8]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A33%3A21.png
+[screenshot9]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A33%3A32.png
 
 ### Sobre o projeto.
 
@@ -189,37 +189,37 @@ Its purpose is to encode your desired hash text.
 ### Screenshots of different types of hash in operation:
 
 `Main`
-![Main][screenshot1]
+![Main][screenshot10]
 
 `Md5`
-![Md5][screenshot2]
+![Md5][screenshot11]
 
 `Sha1`
-![Sha1][screenshot3]
+![Sha1][screenshot12]
 
 `Sha224`
-![Monster][screenshot4]
+![Monster][screenshot13]
 
 `Sha256`
-![Sha256][screenshot5]
+![Sha256][screenshot14]
 
 `Sha384`
-![Sha384][screenshot6]
+![Sha384][screenshot15]
 
 `Sha512`
-![Sha512][screenshot7]
+![Sha512][screenshot16]
 
 `Base64`
-![Base64][screenshot8]
+![Base64][screenshot17]
 
-[screenshot1]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A05%3A55.png
-[screenshot2]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A06%3A06.png
-[screenshot3]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A06%3A16.png
-[screenshot4]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A06%3A27.png
-[screenshot5]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A06%3A41.png
-[screenshot6]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A06%3A58.png
-[screenshot7]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A07%3A15.png
-[screenshot8]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A07%3A34.png
+[screenshot10]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A05%3A55.png
+[screenshot11]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A06%3A06.png
+[screenshot12]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A06%3A16.png
+[screenshot13]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A06%3A27.png
+[screenshot14]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A06%3A41.png
+[screenshot15]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A06%3A58.png
+[screenshot16]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A07%3A15.png
+[screenshot17]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A07%3A34.png
 
 ### Installation and use.
 
