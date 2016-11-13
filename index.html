@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Sup3r-Us3r by Sup3r-Us3r</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Sup3r-Us3r</h1>
+        <h2>Designed for my projects</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/Sup3r-Us3r" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="my-dotfiles-3" class="anchor" href="#my-dotfiles-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>My dotfiles &lt;3</h1>
+
+<p><img alt="dotfiles" width="200" src="https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/dotfiles-logo.png"></p>
+
+<h3>
+<a id="some-settings-for-i3wm-awesomewm-monsterwm-bspwm-and-several-scripts" class="anchor" href="#some-settings-for-i3wm-awesomewm-monsterwm-bspwm-and-several-scripts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Some settings for i3wm, Awesomewm, Monsterwm, Bspwm and several scripts.</h3>
+
+<ul>
+<li>See <a href="https://i3wm.org/">I3</a>
+</li>
+<li>See <a href="https://awesome.naquadah.org/">Awesome</a>
+</li>
+<li>See <a href="https://github.com/c00kiemon5ter/monsterwm">Monster</a>
+</li>
+<li>See <a href="https://github.com/baskerville/bspwm">Bspwm</a>
+</li>
+</ul>
+
+<blockquote>
+<p>For more <a href="https://github.com/Sup3r-Us3r/MyDotfiles/tree/master/Screenshots">screenshots</a> of my system.</p>
+</blockquote>
+
+<h3>
+<a id="see-some-screenshot-of-these-customizations" class="anchor" href="#see-some-screenshot-of-these-customizations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>See some screenshot of these customizations.</h3>
+
+<p>I3wm
+<img src="https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot5.png" alt="I3"></p>
+
+<p>Awesomewm
+<img src="https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot9.png" alt="Awesome"></p>
+
+<p>Monsterwm
+<img src="https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot8.png" alt="Monster"></p>
+
+<p>Bspwm
+<img src="https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot13.png" alt="Bspwm"></p>
+
+<p>My script slideshow
+<img src="https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/script-slide.gif" alt="Slideshow"></p>
+
+<h3>
+<a id="installation-and-dependencies" class="anchor" href="#installation-and-dependencies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation and dependencies</h3>
+
+<p>For I3wm:</p>
+
+<div class="highlight highlight-source-shell"><pre>$ sudo pacman -S i3 lm_sensors mpc feh hddtemp nitrogen mpd ncmpcpp conky git
+$ yaourt -S i3blocks ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf
+</pre></div>
+
+<p>For Awesomewm:</p>
+
+<div class="highlight highlight-source-shell"><pre>$ sudo pacman -S awesome lua conky git
+$ mkdir <span class="pl-k">~</span>/.config/awesome
+$ <span class="pl-c1">cd</span> <span class="pl-k">~</span>/.config/awesome <span class="pl-k">&amp;&amp;</span> rm -rf lain/
+$ git clone https://github.com/copycat-killer/lain.git
+$ cp rc.lua.holo rc.lua 
+/// Example rc.lua.holo more there are others within the directory <span class="pl-k">~</span>/.config/awesome only give cp rc.lua.theme rc.lua
+</pre></div>
+
+<p>For Monsterwm:</p>
+
+<div class="highlight highlight-source-shell"><pre>$ sudo pacman -S git conky dzen2
+$ <span class="pl-c1">cd</span> <span class="pl-k">~</span>/.config/
+$ git clone https://github.com/c00kiemon5ter/monsterwm.git
+$ <span class="pl-c1">cd</span> monsterwm
+$ cp config.def.h config.h
+$ nano config.h
+$ make
+$ sudo make clean install
+</pre></div>
+
+<p>For Bspwm:</p>
+
+<div class="highlight highlight-source-shell"><pre>$ sudo pacman -S bspwm sxhkd lm_sensors mpc hddtemp nitrogen mpd ncmpcpp git
+$ yaourt -S yabar-git ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf
+$ mkdir <span class="pl-k">~</span>/.config/bspwm
+$ <span class="pl-c1">cd</span> <span class="pl-k">~</span>/.config/bspwm
+$ touch bspwmrc <span class="pl-k">&amp;&amp;</span> nano bspwmrc ///Paste this = https://github.com/Sup3r-Us3r/dotfiles/blob/master/config/bspwm/bspwmrc
+$ sudo chmod +x bspwmrc
+$ mkdir <span class="pl-k">~</span>/.config/sxhkd
+$ <span class="pl-c1">cd</span> <span class="pl-k">~</span>/.config/sxhkd
+$ touch sxhkdrc <span class="pl-k">&amp;&amp;</span> nano sxhkdrc ///Paste this = https://github.com/Sup3r-Us3r/dotfiles/blob/master/config/sxhkd/sxhkdrc
+</pre></div>
+
+<h3>
+<a id="installation-and-configuration-mpd--ncmpcpp" class="anchor" href="#installation-and-configuration-mpd--ncmpcpp" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation and configuration Mpd &amp; Ncmpcpp</h3>
+
+<p>Mpd:</p>
+
+<div class="highlight highlight-source-shell"><pre>$ sudo pacman -S mpd
+$ sudo systemctl stop mpd
+$ sudo systemctl disable mpd
+$ mkdir -p <span class="pl-k">~</span>/.mpd/playlists
+$ touch <span class="pl-k">~</span>/.mpd/{mpd.db,mpd.log,mpd.pid,mpdstate}
+$ nano <span class="pl-k">~</span>/.mpd/mpd.conf
+/// Paste this = http://pastebin.com/2AqeAtXU <span class="pl-k">|</span> But remember to replace <span class="pl-s"><span class="pl-pds">"</span>ghost<span class="pl-pds">"</span></span> <span class="pl-k">for</span> your username and the directory of musics.
+</pre></div>
+
+<p>Ncmpcpp:</p>
+
+<div class="highlight highlight-source-shell"><pre>$ sudo pacman -S ncmpcpp
+$ mkdir <span class="pl-k">~</span>/.ncmpcpp
+$ nano <span class="pl-k">~</span>/.ncmpcpp/config
+/// Paste this = http://pastebin.com/0QARNzKH
+</pre></div>
+
+<h3>
+<a id="note-in-english" class="anchor" href="#note-in-english" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Note in English</h3>
+
+<p>I taught how to install, configure, and meet the general dependencies, it is you use my settings and replace the standards.</p>
+
+<h3>
+<a id="note-in-portuguese" class="anchor" href="#note-in-portuguese" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Note in Portuguese</h3>
+
+<p>Eu ensinei como instalar, configurar e satisfazer as dependências de modo geral, cabe você usar minhas configurações e substituir pelas padrões.</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
