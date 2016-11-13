@@ -2,6 +2,8 @@
 
 <img alt="dotfiles" width="200" src="https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/dotfiles-logo.png">
 
+Official page of the project: [MyDotfiles](https://github.com/Sup3r-Us3r/MyDotfiles)
+
 ### Some settings for i3wm, Awesomewm, Monsterwm, Bspwm and several scripts.
 
 
@@ -113,20 +115,22 @@ I taught how to install, configure, and meet the general dependencies, it is you
 Eu ensinei como instalar, configurar e satisfazer as dependências de modo geral, cabe você usar minhas configurações e substituir pelas padrões.
 
 
-``
+``
 
 
 # Spy-Quiz
 
 <img alt="python-logo" width="180" src="https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/python-logo.png">
 
-### Veja mais em:
+Official page of the project: [Spy-Quiz](https://github.com/Sup3r-Us3r/Spy-Quiz)
+
+### See more at:
 
 * [Python](https://www.python.org/)
 * [Arch Linux](https://www.archlinux.org/)
 
 
-### Screenshots do Desenvolvimento e Conclusão.
+### Development and Conclusion screenshots.
 
 `Spyquiz.py`
 ![Spyquiz.py][screenshot6]
@@ -134,10 +138,10 @@ Eu ensinei como instalar, configurar e satisfazer as dependências de modo geral
 `Url.py`
 ![Url.py][screenshot7]
 
-`Início`
+`Main`
 ![Início][screenshot8]
 
-`Sobre`
+`About`
 ![Sobre][screenshot9]
 
 
@@ -146,34 +150,36 @@ Eu ensinei como instalar, configurar e satisfazer as dependências de modo geral
 [screenshot8]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A33%3A21.png
 [screenshot9]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A33%3A32.png
 
-### Sobre o projeto.
+### About the project.
 
-> O Spy-Quiz tem por finalidade, ajudar os entusiatas e estudante de tecnologia da informação, com desafios para você resolver e passar para o próximo nível e o mais legal é que tudo roda no próprio terminal, ele foi desenvolvido em [Python 3.5](https://www.python.org/) e o Sistema utilizado foi o [Arch Linux](https://www.archlinux.org)
+> Spy-Quiz is intended to help enthusiasts and students of information technology, with challenges to solve and move to the next level and the cool thing is that everything runs in the terminal itself, it was developed in [Python 3.5](https://www.python.org/) and the System used was [Arch Linux](https://www.archlinux.org)
 
 * Desenvolvedores [Sup3r-Us3r](https://github.com/Sup3r-Us3r) & [M4GN4S3C](https://magnasec.github.io/)
 
-### Instalação e uso.
+### Installation and use.
 
 ```sh
-$ sudo pacman -S git
+$ sudo pacman -S git // or sudo apt-get install git
 $ git clone https://github.com/Sup3r-Us3r/Spy-Quiz.git
 $ cd Spy-Quiz
 $ sudo chmod +x spyquiz.py && sudo chmod +x url.py
 ```
-Para usar.
+To use.
 ```sh
 $ ./spyquiz.py
 ```
-> Requer python3.5
+> Dependency python3.5
 
 
-# Clique [<img alt="play-video" width="23" src="https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/play-video.png">](https://www.youtube.com/watch?v=T0mtecBoh70) e veja o vídeo de demonstração:
+# Click [<img alt="play-video" width="23" src="https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/play-video.png">](https://www.youtube.com/watch?v=T0mtecBoh70) and watch the demo video:
 
 
-``
+``
 
 # HashCode
 <img alt="python-logo" width="180" src="https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/python-logo.png">
+
+Official page of the project: [HashCode](https://github.com/Sup3r-Us3r/HashCode)
 
 ### See more at:
 
@@ -238,9 +244,12 @@ $ ./hashcode.py
 > See more other projects on my GitHub [MyDotifiles](https://github.com/Sup3r-Us3r/MyDotfiles) and [Spy-Quiz](https://github.com/Sup3r-Us3r/Spy-Quiz)
 
 
-``
+``
 
 # Scripts for testing.
+
+Official page of the project: [Scripts](https://github.com/Sup3r-Us3r/scripts)
+
 
 * fb-brute.pl = Bruteforce for Facebook
 * hash_id_v1.1.py = Hash Identifier
@@ -250,6 +259,12 @@ $ ./hashcode.py
 
 How to Install and use
 ----
+
+`Clone my repository`
+```sh
+$ git clone https://github.com/Sup3r-Us3r/scripts.git
+$ cd scripts
+```
 
 `fb-brute.pl`
 ```sh
