@@ -1,2 +1,0 @@
-login = Spy:D
-senha = Quiz!
