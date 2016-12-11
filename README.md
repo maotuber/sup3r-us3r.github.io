@@ -1,35 +1,33 @@
-# My dotfiles <3
+# MyDotfiles 
 
 <img alt="dotfiles" width="200" src="https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/dotfiles-logo.png">
-
-Official page of the project: [MyDotfiles](https://github.com/Sup3r-Us3r/MyDotfiles)
 
 ### Some settings for i3wm, Awesomewm, Monsterwm, Bspwm and several scripts.
 
 
-* See [I3](https://i3wm.org/)
-* See [Awesome](https://awesome.naquadah.org/)
-* See [Monster](https://github.com/c00kiemon5ter/monsterwm)
-* See [Bspwm](https://github.com/baskerville/bspwm)
+* See [I3](https://i3wm.org/) 
+* See [Awesome](https://awesome.naquadah.org/) 
+* See [Monster](https://github.com/c00kiemon5ter/monsterwm) 
+* See [Bspwm](https://github.com/baskerville/bspwm) 
 
 > For more [screenshots](https://github.com/Sup3r-Us3r/MyDotfiles/tree/master/Screenshots) of my system.
 
 
-### See some screenshot of these customizations.
+###  See some screenshot of these customizations.
 
-I3wm
+I3wm 
 ![I3][screenshot1]
 
-Awesomewm
+Awesomewm 
 ![Awesome][screenshot2]
 
-Monsterwm
+Monsterwm 
 ![Monster][screenshot3]
 
-Bspwm
+Bspwm 
 ![Bspwm][screenshot4]
 
-My script slideshow
+ My script slideshow
 ![Slideshow][screenshot5]
 
 [screenshot1]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot5.png
@@ -38,16 +36,16 @@ My script slideshow
 [screenshot4]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/screenshot13.png
 [screenshot5]:https://raw.githubusercontent.com/Sup3r-Us3r/MyDotfiles/master/Screenshots/script-slide.gif
 
-### Installation and dependencies
+###  Installation and dependencies
 
-For I3wm:
+ For I3wm:
 ```sh
 $ sudo pacman -S i3 lm_sensors mpc feh hddtemp nitrogen mpd ncmpcpp conky git
 $ yaourt -S i3blocks ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf
 
 ```
 
-For Awesomewm:
+ For Awesomewm:
 ```sh
 $ sudo pacman -S awesome lua conky git
 $ mkdir ~/.config/awesome
@@ -58,7 +56,7 @@ $ cp rc.lua.holo rc.lua
 
 ```
 
-For Monsterwm:
+ For Monsterwm:
 ```sh
 $ sudo pacman -S git conky dzen2
 $ cd ~/.config/
@@ -71,7 +69,7 @@ $ sudo make clean install
 
 ```
 
-For Bspwm:
+ For Bspwm:
 ```sh
 $ sudo pacman -S bspwm sxhkd lm_sensors mpc hddtemp nitrogen mpd ncmpcpp git
 $ yaourt -S yabar-git ttf-inconsolata ttf-font-awesome ttf-dejavu terminus-font-ttf
@@ -85,9 +83,9 @@ $ touch sxhkdrc && nano sxhkdrc ///Paste this = https://github.com/Sup3r-Us3r/do
 
 ```
 
-### Installation and configuration Mpd & Ncmpcpp
+###  Installation and configuration Mpd & Ncmpcpp
 
-Mpd:
+ Mpd:
 ```sh
 $ sudo pacman -S mpd
 $ sudo systemctl stop mpd
@@ -99,7 +97,7 @@ $ nano ~/.mpd/mpd.conf
 
 ```
 
-Ncmpcpp:
+ Ncmpcpp:
 ```sh
 $ sudo pacman -S ncmpcpp
 $ mkdir ~/.ncmpcpp
@@ -108,192 +106,29 @@ $ nano ~/.ncmpcpp/config
 
 ```
 
-### Note in English
+### Controls 
+
+| Key | Description |
+| --- | ----------- |
+| <kbd>1</kbd>| List |
+| <kbd>2</kbd>| List |
+| <kbd>3</kbd>| List |
+| <kbd>4</kbd>| List |
+| <kbd>6</kbd>| List |
+| <kbd>8</kbd>| Visualizer |
+| <kbd>space</kbd>| Change visualizer |
+| <kbd>=</kbd>| Clock |
+| <kbd>z</kbd>| Random Music |
+| <kbd>p</kbd>| Pause/Play |
+| <kbd>r</kbd>| Repeat mode on/off |
+| <kbd>enter</kbd>| Play Music |
+
+###  Note in English
 I taught how to install, configure, and meet the general dependencies, it is you use my settings and replace the standards.
 
-### Note in Portuguese
+###  Note in Portuguese
 Eu ensinei como instalar, configurar e satisfazer as dependências de modo geral, cabe você usar minhas configurações e substituir pelas padrões.
 
+----------------------
 
-``
-
-
-# Spy-Quiz
-
-<img alt="python-logo" width="180" src="https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/python-logo.png">
-
-Official page of the project: [Spy-Quiz](https://github.com/Sup3r-Us3r/Spy-Quiz)
-
-### See more at:
-
-* [Python](https://www.python.org/)
-* [Arch Linux](https://www.archlinux.org/)
-
-
-### Development and Conclusion screenshots.
-
-`Spyquiz.py`
-![Spyquiz.py][screenshot6]
-
-`Url.py`
-![Url.py][screenshot7]
-
-`Main`
-![Início][screenshot8]
-
-`About`
-![Sobre][screenshot9]
-
-
-[screenshot6]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A37%3A32.png
-[screenshot7]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A37%3A35.png
-[screenshot8]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A33%3A21.png
-[screenshot9]:https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/2016-11-11-12%3A33%3A32.png
-
-### About the project.
-
-> Spy-Quiz is intended to help enthusiasts and students of information technology, with challenges to solve and move to the next level and the cool thing is that everything runs in the terminal itself, it was developed in [Python 3.5](https://www.python.org/) and the System used was [Arch Linux](https://www.archlinux.org)
-
-* Desenvolvedores [Sup3r-Us3r](https://github.com/Sup3r-Us3r) & [M4GN4S3C](https://magnasec.github.io/)
-
-### Installation and use.
-
-```sh
-$ sudo pacman -S git // or sudo apt-get install git
-$ git clone https://github.com/Sup3r-Us3r/Spy-Quiz.git
-$ cd Spy-Quiz
-$ sudo chmod +x spyquiz.py && sudo chmod +x url.py
-```
-To use.
-```sh
-$ ./spyquiz.py
-```
-> Dependency python3.5
-
-
-# Click [<img alt="play-video" width="23" src="https://raw.githubusercontent.com/Sup3r-Us3r/Spy-Quiz/master/Screenshots/play-video.png">](https://www.youtube.com/watch?v=T0mtecBoh70) and watch the demo video:
-
-
-``
-
-# HashCode
-<img alt="python-logo" width="180" src="https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/python-logo.png">
-
-Official page of the project: [HashCode](https://github.com/Sup3r-Us3r/HashCode)
-
-### See more at:
-
-* [Python](https://www.python.org/)
-* [Arch Linux](https://www.archlinux.org/)
-
-### About:
-
-Its purpose is to encode your desired hash text.
-
-* Developer: The whole project was the one I did, with the goal of expedite the process of encode text to hash's.
-
-### Screenshots of different types of hash in operation:
-
-`Main`
-![Main][screenshot10]
-
-`Md5`
-![Md5][screenshot11]
-
-`Sha1`
-![Sha1][screenshot12]
-
-`Sha224`
-![Monster][screenshot13]
-
-`Sha256`
-![Sha256][screenshot14]
-
-`Sha384`
-![Sha384][screenshot15]
-
-`Sha512`
-![Sha512][screenshot16]
-
-`Base64`
-![Base64][screenshot17]
-
-[screenshot10]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A05%3A55.png
-[screenshot11]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A06%3A06.png
-[screenshot12]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A06%3A16.png
-[screenshot13]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A06%3A27.png
-[screenshot14]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A06%3A41.png
-[screenshot15]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A06%3A58.png
-[screenshot16]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A07%3A15.png
-[screenshot17]:https://raw.githubusercontent.com/Sup3r-Us3r/HashCode/master/Screenshots/2016-11-11-16%3A07%3A34.png
-
-### Installation and use.
-
-```sh
-$ sudo pacman -S git // or sudo apt-get install git
-$ git clone https://github.com/Sup3r-Us3r/HashCode.git
-$ cd HashCode/
-$ sudo chmod +x hashcode.py
-```
-Use.
-```sh
-$ ./hashcode.py
-```
-> Dependency - Python3.5
-
-> See more other projects on my GitHub [MyDotifiles](https://github.com/Sup3r-Us3r/MyDotfiles) and [Spy-Quiz](https://github.com/Sup3r-Us3r/Spy-Quiz)
-
-
-``
-
-# Scripts for testing.
-
-Official page of the project: [Scripts](https://github.com/Sup3r-Us3r/scripts)
-
-
-* fb-brute.pl = Bruteforce for Facebook
-* hash_id_v1.1.py = Hash Identifier
-* painel.pl = Admin Control Panel Finder
-* slowloris.pl = Denial of Service
-* g3m = Denial of Service
-
-How to Install and use
-----
-
-`Clone my repository`
-```sh
-$ git clone https://github.com/Sup3r-Us3r/scripts.git
-$ cd scripts
-```
-
-`fb-brute.pl`
-```sh
-$ sudo chmod +x fb-brute.pl
-$ perl fb-brute.pl id-user-facebook wordlist.txt
-```
-
-`hash_id_v1.1.py`
-```sh
-$ sudo chmod +x hash_id_v1.1.py
-$ python2 hash_id_v1.1.py
-``` 
-
-`painel.pl`
-```sh
-$ sudo chmod +x painel.pl
-$ perl painel.pl
-```
-
-`slowloris.pl`
-```sh
-$ sudo chmod +x slowloris.pl
-$ perl slowloris.pl -dns www.target.com -port 80 -timeout 1 -num 1000 -tcpto 5
-$ perl slowloris.pl -dns IP
-```
-
-`g3m`
-```sh
-$ sudo chmod +x g3m
-$ ./g3m -h ip -T 3              #Attack private internet
-$ ./g3m -h ip -T 3 -p 80,80     #Attack websites
-```
+#  [1](https://www.google.com) [2](https://www.youtube.com)
