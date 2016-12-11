@@ -132,3 +132,4 @@ Eu ensinei como instalar, configurar e satisfazer as dependências de modo geral
 ----------------------
 
 #  [1](https://www.google.com) [2](https://www.youtube.com)
+
