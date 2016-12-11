@@ -131,5 +131,5 @@ Eu ensinei como instalar, configurar e satisfazer as dependências de modo geral
 
 ----------------------
 
-#  [1](https://www.google.com) [2](https://www.youtube.com)
+#  [1](https://sup3r-us3r.github.io/) [2](https://sup3r-us3r.github.io/page2.html) [3](https://sup3r-us3r.github.io/page3.html) [4](https://sup3r-us3r.github.io/page4.html) [5](https://sup3r-us3r.github.io/page5.html)
 
