@@ -30,10 +30,10 @@ body {
 
 </script>
 <script language=JavaScript>
-var dedos, t;
-dedos=prompt("Digite a Senha: ","");
-if (dedos=="Penetration Tester's") {
-window.location.href="testers.php";
+var pass, t;
+pass=prompt("Digite a Senha: ","");
+if (pass=="Penetration Tester's") {
+window.location.href="nivel3";
 t=1;
 }else {alert("hehehe, Relaxa é mais fácil do que você imagina, tente novamente que você vai conseguir!");
 window.location.href="spy.php";}
@@ -47,8 +47,7 @@ window.location.href="spy.php";}
     <img src="2.png" width="800" height="99" /><br />
     <span class="style1">Achou fácil o nível 1? o nível 2 é tão fácil que nem compensa ficar aqui por muito tempo né!</span><br />
     <br />
-    <a href="backtrack.php"><br />
-    <img src="pular3.png" width="182" height="41" border="0" /></a>  <br />
+    <a href="#"><br />
   </p>
   </div>
 </body>
