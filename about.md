@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Sobre"
+author: "Sup3r-Us3r"
+permalink: /sobre/
+---
+
+### ![sou](https://img.shields.io/badge/SOU-%3A-red.svg)
+
+* Conhecido como Magno Tutor, devido ao meu [canal](https://youtube.com/MagnoTutor)
+
+  * Usuário de Linux, a mais de 4 anos
+
+
+* Amante de tecnologia
+
+  * Entusiasta em customização, afinal qual a graça do default ?
+
+
+* Estudante em práticas de pentesting/hacking
+
+  * Desenvolvedor ou ao menos tento ser em python
+
+
+<font color="#ff0000">⚀</font> _Tenho 18 anos, ainda curso o ensino médio, tenho muita vontade de aprender, para está passando meu conhecimento adiante, pois do que adianta guardá-lo, concorda ?_
+
+<font color="#ff0000">⚁</font> _Amo de coração o GNU/Linux principalmente a minha distribuição favorita o Arch Linux. Em relação ao ambiente de trabalho que uso, mano do céu, não uso DE e sim WM para ser mais específico o I3wm, e não me arrependo nem um pouco, não mesmo, desempenho superior em todos os quesitos, facilidade de acesso, agilidade então nem se discute._
+
+<font color="#ff0000">⚂</font> _Por fim, bom, só uma pessoa bastante interativa, comigo não tem dessa de superioridade, todos somos iguais, apenas um diferencial é importante nesse meio onde vivemos, a força de querer, aquele ditato "querer não é poder!" para mim é um mito, querer é poder SIM! basta você acreditar que você consegue._
+
+<hr>
+
+
+![forthebadge](http://forthebadge.com/images/badges/made-with-ruby.svg) ![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg) ![forthebadge](http://forthebadge.com/images/badges/uses-html.svg) ![forthebadge](http://forthebadge.com/images/badges/uses-css.svg) ![forthebadge](http://forthebadge.com/images/badges/fo-real.svg)
+
+[![Facebook](https://img.shields.io/badge/FACEBOOK-ツ-blue.svg)](https://facebook.com/mypagemagnotutor) [![YouTube](https://img.shields.io/badge/YOUTUBE-♥-red.svg)](https://youtube.com/MagnoTutor) [![GitHub](https://img.shields.io/badge/GITHUB-★-yellow.svg)](https://github.com/Sup3r-Us3r)

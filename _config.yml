@@ -1,0 +1,31 @@
+# Permalinks
+permalink:      /:day-:month-:year/:title
+
+# Setup
+title:          SUP3R-US3R
+paginate:       5
+baseurl:        ""
+url:            "https://sup3r-us3r.github.io"
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
+author:
+  name:         Sup3r-Us3r
+  url:          https://sup3r-us3r.github.io
+  email:        pc.gam3rs.tuto@gmail.com
+
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/Sup3r-Us3r/sup3r-us3r.github.io
+
+# Gems
+gems:
+  - jekyll-paginate
