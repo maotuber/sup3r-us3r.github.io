@@ -33,9 +33,10 @@ Este guia destina-se a ajudar alguém a instalar a distribuição Arch Linux  em
 
 * Para criar um USB bootable usando o comando (dd) no Linux:
 
-```
+{% highlight markdown %}
 # dd bs=4M if=/lugar_onde_esta_sua_iso of=/dev/sdX status=progress && sync
-```
+
+{% endhighlight %}
 
 **(Substitua o X pela letra do seu dispositivo ex: 'sdc' 'sdd') use: lsblk**
 
@@ -298,27 +299,35 @@ Permitir que os usuários no grupo wheel, sejam capazes de executar tarefas admi
 
 # INSTALAR BOOT-LOADER (GRUB)
 Instalar e configurar o boot-loader **(BIOS)**
-```
+
+{% highlight markdown %}
 # mkinitcpio -p linux
 # pacman -S grub
 # grub-install /dev/sdX
 # pacman -S os-prober (Se você estiver inicializando em dual boot)
 # pacman -S intel-ucode (Se você tiver uma CPU Intel, instale o pacote intel-ucode)
 # grub-mkconfig -o /boot/grub/grub.cfg
-```
+
+{% endhighlight %}
+
 ♦ Instalar e configurar o boot-loader **(UEFI)**
-```
+
+{% highlight markdown %}
 # mkinitcpio -p linux
 # pacman -S grub efibootmgr
 # grub-install /dev/sdX
 # pacman -S os-prober (Se você estiver inicializando em dual boot)
 # pacman -S intel-ucode (Se você tiver uma CPU Intel, instale o pacote intel-ucode)
 # grub-mkconfig -o /boot/grub/grub.cfg
-```
+
+{% endhighlight %}
+
 ♦ Caso der erro ao tentar instalar o grub, tente outro modo: **(UEFI)**
-```
+
+{% highlight markdown %}
 # grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub --recheck
-```
+
+{% endhighlight %}
 
 # DESMONTAR AS PARTIÇÕES E REINICIAR
 ```
@@ -471,9 +480,6 @@ Existem outras alternativas como: **Gdm**, **Sddm** etc.
 
 # YAOURT
 Alguns pacotes não podem ser encontrados no repositório principal, por isso temos o AUR onde possamos encontra-los e instalá-los, e para fazer isto precisamos adicionar o endereço AUR no final do arquivo /etc/pacman.conf.
-
-<pre><span class="pl-c"><span class="pl-c">#</span> echo -e "[archlinuxfr]\nSigLevel = Never\nServer=http://repo.archlinux.fr/\$arch" &gt;&gt; /etc/pacman.conf</span>
-<span class="pl-c"><span class="pl-c">#</span> pacman -Sy yaourt</span></pre>
 
 {% highlight markdown %}
 # echo -e "[archlinuxfr]\nSigLevel = Never\nServer=http://repo.archlinux.fr/\$arch" >> /etc/pacman.conf
