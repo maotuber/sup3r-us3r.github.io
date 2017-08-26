@@ -472,9 +472,8 @@ Existem outras alternativas como: **Gdm**, **Sddm** etc.
 # YAOURT
 Alguns pacotes não podem ser encontrados no repositório principal, por isso temos o AUR onde possamos encontra-los e instalá-los, e para fazer isto precisamos adicionar o endereço AUR no final do arquivo /etc/pacman.conf.
 
-<pre id="taag_font_Elite" style="float:left;" class="fig-ansi" contenteditable="true">
-# echo -e "[archlinuxfr]\nSigLevel = Never\nServer=http://repo.archlinux.fr/\$arch" >> /etc/pacman.conf
-# pacman -Sy yaourt</pre>
+<pre><span class="pl-c"><span class="pl-c">#</span> echo -e "[archlinuxfr]\nSigLevel = Never\nServer=http://repo.archlinux.fr/\$arch" &gt;&gt; /etc/pacman.conf</span>
+<span class="pl-c"><span class="pl-c">#</span> pacman -Sy yaourt</span></pre>
 
 # RECOMENDAÇÕES FINAIS
 Caso use um notebook, você deve instalar os drivers do seu touchpad:
