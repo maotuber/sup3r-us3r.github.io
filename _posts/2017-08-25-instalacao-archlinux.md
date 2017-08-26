@@ -475,6 +475,12 @@ Alguns pacotes não podem ser encontrados no repositório principal, por isso te
 <pre><span class="pl-c"><span class="pl-c">#</span> echo -e "[archlinuxfr]\nSigLevel = Never\nServer=http://repo.archlinux.fr/\$arch" &gt;&gt; /etc/pacman.conf</span>
 <span class="pl-c"><span class="pl-c">#</span> pacman -Sy yaourt</span></pre>
 
+{% highlight markdown %}
+# echo -e "[archlinuxfr]\nSigLevel = Never\nServer=http://repo.archlinux.fr/\$arch" >> /etc/pacman.conf
+# pacman -Sy yaourt
+
+{% endhighlight %}
+
 # RECOMENDAÇÕES FINAIS
 Caso use um notebook, você deve instalar os drivers do seu touchpad:
 ```
