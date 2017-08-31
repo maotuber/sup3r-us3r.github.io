@@ -27,9 +27,8 @@ Este guia destina-se a ajudar alguém a instalar a distribuição Arch Linux  em
 * Faça o download do Arch Linux: [Baixar](https://www.archlinux.org/download/)
 
 * Para criar um USB bootable no:
-  * Linux: [Etcher](https://etcher.io/) - [RosaImageWriter](http://wiki.rosalab.com/en/index.php/ROSA_ImageWriter)
-  * Windows: [Rufus](https://rufus.akeo.ie) - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
-
+    - Linux: [Etcher](https://etcher.io/) - [RosaImageWriter](http://wiki.rosalab.com/en/index.php/ROSA_ImageWriter)
+    - Windows: [Rufus](https://rufus.akeo.ie) - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
 
 * Para criar um USB bootable usando o comando (dd) no Linux:
 
