@@ -8,18 +8,11 @@ permalink: /sobre/
 ### ![sou](https://img.shields.io/badge/SOU-%3A-red.svg)
 
 * Conhecido como Magno Tutor, devido ao meu [canal](https://youtube.com/MagnoTutor)
-
-  * Usuário de Linux, a mais de 4 anos
-
-
+    - Usuário de Linux, a mais de 4 anos
 * Amante de tecnologia
-
-  * Entusiasta em customização, afinal qual a graça do default ?
-
-
+    - Entusiasta em customização, afinal qual a graça do default ?
 * Estudante em práticas de pentesting/hacking
-
-  * Desenvolvedor ou ao menos tento ser em python
+    - Desenvolvedor ou ao menos tento ser em python
 
 
 <font color="#ff0000">⚀</font> _Tenho 18 anos, ainda curso o ensino médio, tenho muita vontade de aprender, para está passando meu conhecimento adiante, pois do que adianta guardá-lo, concorda ?_
@@ -34,3 +27,14 @@ permalink: /sobre/
 ![forthebadge](http://forthebadge.com/images/badges/made-with-ruby.svg) ![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg) ![forthebadge](http://forthebadge.com/images/badges/uses-html.svg) ![forthebadge](http://forthebadge.com/images/badges/uses-css.svg) ![forthebadge](http://forthebadge.com/images/badges/fo-real.svg)
 
 [![Facebook](https://img.shields.io/badge/FACEBOOK-ツ-blue.svg)](https://facebook.com/mypagemagnotutor) [![YouTube](https://img.shields.io/badge/YOUTUBE-♥-red.svg)](https://youtube.com/MagnoTutor) [![GitHub](https://img.shields.io/badge/GITHUB-★-yellow.svg)](https://github.com/Sup3r-Us3r)
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-comments" data-href="https://sup3r-us3r.github.io/sobre/" data-width="800x400" data-numposts="6"></div>
