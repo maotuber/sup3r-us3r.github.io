@@ -11,5 +11,5 @@
 ![forthebadge](http://forthebadge.com/images/badges/fo-real.svg)
 
 [![Facebook](https://img.shields.io/badge/FACEBOOK-ツ-blue.svg)](https://facebook.com/mypagemagnotutor)
-[![YouTube](https://img.shields.io/badge/YOUTUBE-♥-red.svg)](https://youtube.com/MagnoTutor)
+[![YouTube](https://img.shields.io/badge/YOUTUBE-♥-red.svg)](https://youtube.com/MagnoTutor?sub_confirmation=1)
 [![GitHub](https://img.shields.io/badge/GITHUB-★-yellow.svg)](https://github.com/Sup3r-Us3r)
